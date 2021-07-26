@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>PortfolioPage</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo/logo_large.png" alt="logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger-menu"></span>
+      </button>
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">My Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#work" class="nav-link">My work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Intro-->
+    <section class="intro" id="home">
+      <h1 class="section-title section-title-intro">
+        Hi, I am <strong>Lukas Prochazka</strong>
+      </h1>
+      <p class="section-sub section-sub-intro">Full-stack dev</p>
+      <img src="me1.jpeg" alt="foto of me" class="intro-img my-intro-img" />
+    </section>
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="section-title section-title-service">What I do</h2>
+      <div class="services">
+        <div class="service-detail">
+          <h3>Frontend Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            veniam ex quia libero dolore, est saepe esse vero, rerum, ducimus
+            assumenda nostrum praesentium ipsam alias consequatur. Quisquam ut
+            magnam saepe.
+          </p>
+        </div>
+        <div class="service-detail">
+          <h3>Backend Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            veniam ex quia libero dolore, est saepe esse vero, rerum, ducimus
+            assumenda nostrum praesentium ipsam alias consequatur. Quisquam ut
+            magnam saepe.
+          </p>
+        </div>
+        <div class="service-detail">
+          <h3>Fullstack Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            veniam ex quia libero dolore, est saepe esse vero, rerum, ducimus
+            assumenda nostrum praesentium ipsam alias consequatur. Quisquam ut
+            magnam saepe.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!--About Me-->
+    <section class="aboutme" id="about">
+      <h2 class="section-title section-title-aboutme">Who I am</h2>
+      <p class="section-sub section-sub-aboutme">
+        Developer based out of Vienna
+      </p>
+      <div class="aboutme-body">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero
+          harum, reprehenderit quibusdam perspiciatis nostrum deserunt dolore
+          asperiores ut quia consequuntur quisquam autem distinctio cum eos. Ex
+          odio laudantium tempora.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero
+          harum, reprehenderit quibusdam perspiciatis nostrum deserunt dolore
+          asperiores ut quia consequuntur quisquam autem distinctio cum eos. Ex
+          odio laudantium tempora.
+        </p>
+      </div>
+      <img src="me3.jpeg" alt="me golf" class="aboutme-img" />
+    </section>
+    <!--My work-->
+    <section class="mywork" id="work">
+      <h2 class="section-title section-title-mywork">My Work</h2>
+      <p class="section-sub section-sub-mywork">a selection of my work</p>
+      <!--portfolio-->
+      <div class="portfolio">
+        <!--portfolio items 01-->
+        <a href="portfolio1.html" class="portfolio-item">
+          <img
+            src="logo/portfolio1.jpeg"
+            alt="portfolio1"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 02-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 03-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 04-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 05-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 06-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 07-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+        <!--portfolio items 08-->
+        <a href="#" class="portfolio-item">
+          <img
+            src="logo/logo_small_icon_only.png"
+            alt="work"
+            class="portfolio-logo"
+          />
+        </a>
+      </div>
+    </section>
+    <!--footer-->
+    <footer class="footer">
+      <a href="mailto:prochazka.lu@gmail.com" class="footer-link">hello@me</a>
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a
+            class="social-list-link"
+            href="https://codesandbox.io/dashboard/home?workspace=e5ea9b7f-b010-4294-8171-f9bd33e5365e"
+            ><i class="fas fa-laptop-code"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a class="social-list-link" href="#">
+            <i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a class="social-list-link" href="#"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a class="social-list-link" href="#"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
